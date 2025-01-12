@@ -1,0 +1,27 @@
+/* .box { 
+    height: 2500px;
+    width: 150px;
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    padding-top: 5px ;
+    margin: 5px ;
+}
+#nav { 
+    height: 250px;
+    width: 150px;
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    padding-top: 5px ;
+    margin: 5px ;
+} */
+body {
+    background-color: rgb(112, 122, 124);
+}
+.newclass { 
+    background-color: green;
+}
+.para {
+    color: red;
+}

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    height: 10vmin;
+    background-color:  #2b2f39;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    height: 25vmin ;
+    width: 25vmin ;
+    /* background-image: url("rock_img\ -\ Copy.png"); */
+    /* background-size: cover; */
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+.box1:hover {
+    /* border: 1px solid black; */
+    /* object-fit: cover; */
+    /* opacity: 0.7; */
+    cursor: pointer;
+}
+.box2 {
+    height: 25vmin ;
+    width: 25vmin ;
+    /* background-image: url("paper_img\ -\ Copy.png"); */
+    /* background-size: cover; */
+    border-radius: 50%;
+    margin: 10px ;
+    object-fit: cover;
+}
+.box2:hover {
+    /* border: 1px solid black; */
+    /* object-fit: cover; */
+    /* opacity: 0.7; */
+    cursor: pointer;
+}
+.box3 {
+    height: 25vmin ;
+    width: 25vmin ;
+    /* background-image: url("scissors_img\ -\ Copy.png"); */
+    /* background-size: cover; */
+    border-radius: 50%;
+    margin: 10px ;
+    object-fit: cover;
+}
+.box3:hover {
+    /* border: 1px solid black; */
+    /* object-fit: cover; */
+    /* opacity: 0.7; */
+    cursor: pointer;
+}
+.choice:hover {
+    background-color: black;
+    border-radius: 50%;
+}
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px ;
+}
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.you { 
+    font-size: 25px;
+    /* padding-right: 15px ; */
+}
+.comp {
+    font-size: 25px ;
+}
+.X {
+    font-size: 40px;
+    text-align: center;
+}
+.Y {
+    font-size: 40px ;
+    text-align: center;
+}
+.last {
+    text-align: center;
+    display: flex;
+    height: 200px ;
+    justify-content: center;
+    margin-top: 40px ;
+}
+.won {
+    /* width: 1000px; */
+    height: 40px ;
+    font-size: 25px ;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(180, 180, 45);
+    padding: 10px;
+}
